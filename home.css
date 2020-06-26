@@ -113,9 +113,12 @@ hr.sectionBreak {
   margin-bottom: 40px;
   padding: 20px;
   display: block;
-  margin-left: 30px;
 }
-
+@media screen and (min-width:600px) {
+  .solution {
+    margin-left: 30px;
+  }
+}
 .img_solution {
   position: static;
   float: left;
@@ -148,6 +151,7 @@ hr.sectionBreak {
   width: 300px;
   border: none;
 }
+
 #Founder {
   text-align:center;
   color:white;
@@ -155,6 +159,7 @@ hr.sectionBreak {
   margin-top:490px;
   font-weight: 900;
 }
+
 @media screen and (min-width:600px) {
   #subheading-founder {
     color: white;
@@ -213,14 +218,14 @@ hr.sectionBreak {
     font-size: 0px;
   }
   .founder {
-    float: left;
+      float: left;
     margin-top: 40px;
     display: block;
   }
   .img_founder {
-    float: left;
-    margin: 0 20px 0 40px;
+      float: left;
     overflow: hidden;
+    margin: 0 20px 0 40px;
   }
  .row img {
     width: 100px;
